@@ -24,7 +24,7 @@
   ```
   where `MODEL_SAVE_DIR` refers to the directory for saving the trained models, `DATASET_NAME` is the name of target dataset, `T` stands for the threshold to divide the head and tail subsets.
 
-### Train student models
+### Train student model
   After obtaining the teacher models, train the student model using
   ```
   python train_s.py --head_teacher_path HEAD_TEACHER_PTH --tail_teacher_path TAIL_TEACHER_PTH --model_save_dir MODEL_SAVE_DIR --data_dir dataset/DATASET_NAME --threshold T
